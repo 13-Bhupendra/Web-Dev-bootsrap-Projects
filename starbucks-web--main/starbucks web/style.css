@@ -1,0 +1,252 @@
+*
+{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family:arial;
+}
+.fixed 
+{
+    position: sticky;
+    top: 0%;
+    z-index: 1;
+}
+nav
+{
+    height: 75px;
+    width: 100%;
+    background-color: white;
+    border-bottom: 1px solid gray;
+   
+    
+}
+.navbar-container 
+{
+    height: 75px;
+    width: 70%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+
+}
+.navbar-container .logo 
+{
+    height:75px;
+    width: 5%;
+    display: flex;
+    justify-content: start;
+    
+}
+.navbar-container .logo img
+{
+    height: 43px;
+    width: 45px;
+}
+.navbar-container .menu
+{
+    height: 75px;
+    width: 55%;
+}
+.navbar-container .menu ul 
+{
+    display: flex;
+    margin-top: 15px;
+}
+.navbar-container .menu ul li 
+{
+    list-style: none;
+    padding-right: 50px;
+    
+}
+.navbar-container .menu ul li a
+{
+    text-decoration: none;
+    color: gray;
+    transition: 0.5s;
+}
+.navbar-container .menu ul li a:hover 
+{
+    color: green;
+}
+.navbar-container .search 
+{
+    height: 75px;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+}
+.navbar-container .search input
+{
+    height: 40px;
+    width: 70%;
+    border-radius: 50px;
+    border: none;
+    box-shadow: 2px 2px 2px 2px gray;
+}
+.navbar-container .search input::placeholder
+{
+    font-size: 13px;
+    padding-left: 53px;
+    color: gray;
+}
+.navbar-container .search i 
+{
+    position: relative;
+    color: gray;
+    left: 10%;
+    top: 10px;
+}
+.navbar-container .profile 
+{
+    height: 75px;
+    width: 10%;
+    display: flex;
+    justify-content: end;
+    margin-top: 10px;
+}
+.navbar-container .profile i 
+{
+    font-size: 30px;
+    color: gray;
+}
+.btn 
+{
+    color: white;
+    border: 1px solid white;
+    border-radius: 50px;
+    font-size: 13px;
+}
+.first-slider 
+{
+    height: 250px;
+    width: 100%;
+    background: rgb(253,191,202);
+    background: linear-gradient(90deg, rgba(253,191,202,1) 9%, rgba(239,25,68,1) 56%, rgba(85,189,157,1) 87%);
+    border-radius: 20px;
+}
+.second-slider 
+{
+    height: 250px;
+    width: 100%;
+    border-radius: 20px;
+    background-color: #09907F;
+}
+.carousel .carousel-item section .btn
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    width: 190px;
+}
+.row img 
+{
+    height: 110px;
+}
+.product img:hover 
+{
+    border: 3px solid green;
+}   
+ 
+.banner 
+{
+    height: 350px;
+    width: 100%;
+    background-color: black;
+    border-radius: 10px;
+    background:linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.5)), url(images/banner.jpg);
+    background-position: center;
+    background-size: cover;
+    padding-top: 150px;
+    
+}
+.banner:hover 
+{
+    background:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.9)), url(images/banner.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.about ul li 
+{ list-style: none;
+    padding-bottom: 20px;
+    transition: 0.5s;
+    font-size: 13px;
+}
+.about ul li a
+{
+    color: white;
+    transition: 0.5s;
+}
+.about ul li a:hover 
+{
+    color: gray;
+}
+.responsibility ul li 
+{
+    list-style: none;
+    padding-bottom: 20px;
+    transition: 0.5s;
+    font-size: 13px;
+}
+.responsibility ul li a
+{
+    color: white;
+    transition: 0.5s;
+}
+.responsibility ul li a:hover 
+{
+    color: gray;
+}
+.quick-lens ul li 
+{
+    list-style: none;
+    padding-bottom: 20px;
+    transition: 0.5s;
+    font-size: 13px;
+}
+.quick-lens ul li a
+{
+    color: white;
+    transition: 0.5s;
+}
+.quick-lens ul li a:hover 
+{
+    color: gray;
+}
+.social-media ul li 
+{
+    list-style: none;
+    padding-bottom: 20px;
+    transition: 0.5s;
+    font-size: 13px;
+}
+.social-media ul li a
+{
+    color: white;
+    transition: 0.5s;
+}
+.social-media ul li a:hover 
+{
+    color: gray;
+}
+.footer-end ul li 
+{
+    list-style: none;
+    padding-bottom: 20px;
+    transition: 0.5s;
+    font-size: 13px;
+    padding-right: 25px;
+    padding-left: 25px;
+    border-right: 1px solid white;
+}
+.footer-end ul li a
+{
+    color: white;
+    transition: 0.5s;
+}
+.footer-end ul li a:hover 
+{
+    color: gray;
+}
+ 

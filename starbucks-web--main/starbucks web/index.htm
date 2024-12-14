@@ -1,0 +1,579 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <!--bs-css-link-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+
+    <!--bs-js-link-->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+
+    <!--css-stysheet-->
+    <link rel="stylesheet" href="style.css" />
+
+    <!--icon-cdn-->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+  </head>
+
+  
+    <!--navbar-->
+    <div class="fixed">
+      <nav class="navbar navbar-expand-lg ">
+        <div class="navbar-container">
+          <div class="logo">
+            <img src="images/logo.png" alt="" />
+          </div>
+
+          <div class="menu">
+            <ul>
+              <li>
+                <a
+                  href=""
+                  class="fw-bolder"
+                  style="
+                    color: green;
+                    border-bottom: 2px solid green;
+                    padding-bottom: 10px;
+                  "
+                  >Home</a
+                >
+              </li>
+              <li><a href="" class="fw-bolder">Gift</a></li>
+              <li><a href="" class="fw-bolder">Order</a></li>
+              <li><a href="" class="fw-bolder">Pay</a></li>
+              <li><a href="" class="fw-bolder">Store</a></li>
+            </ul>
+          </div>
+
+          <div class="search">
+            <i class="bi bi-search"></i
+            ><input type="search" placeholder="Looking for something Special ?" />
+          </div>
+
+          <div class="profile">
+            <i class="bi bi-person-circle"></i>
+          </div>
+        </div>
+      </nav>
+    </div>
+
+
+    <div
+      class="container-fluid d-flex align-items-center"
+      style="height: 75px; background-color: #0e382c"
+    >
+      <div class="container d-flex justify-content-end">
+        <button class="btn text-light">Know more</button>
+      </div>
+    </div>
+
+
+    <!--banner-->
+    <div class="container mt-5">
+      <div id="slider" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active first-slider">
+            <div class="c1 d-flex">
+              <img
+                src="images/banner-1-img.png"
+                class="d-flex align-items-center me-5"
+                style="height: 250px"
+              />
+              <section class="w-100">
+                <h6
+                  class="mt-5 text-light ms-5"
+                  style="width: 70%; margin: auto"
+                >
+                  'Tis The Season
+                </h6>
+                <h3
+                  class="mt-4 text-light ms-5"
+                  style="width: 70%; margin: auto; font-weight: bold"
+                >
+                  Merrier Together
+                </h3>
+                <h6
+                  class="mt-4 text-light ms-5"
+                  style="width: 70%; margin: auto"
+                >
+                  Get into the holiday spirit with our seasonal offering
+                </h6>
+                <a
+                  href=""
+                  class="d-flex justify-content-center justify-content-sm-center justify-content-lg-end"
+                  style="text-decoration: none"
+                  ><button
+                    class="btn btn-light text-dark me-5 mt-sm-3 fw-bolder"
+                  >
+                    Order Now
+                  </button></a
+                >
+              </section>
+            </div>
+          </div>
+
+          <div class="carousel-item second-slider">
+            <div class="c2 d-flex">
+              <img
+                src="images/banner-2-img.png"
+                class="d-flex align-items-center me-5"
+                style="height: 250px"
+              />
+              <section class="w-100">
+                <h6
+                  class="mt-5 text-light ms-5 mt-sm-1 mt-md-5 mt-xl-5"
+                  style="width: 70%; margin: auto"
+                >
+                  Starbucks
+                </h6>
+                <h3
+                  class="mt-4 text-light ms-5 mt-sm-4 mt-md-3 mt-xl-4"
+                  style="width: 70%; margin: auto; font-weight: bold"
+                >
+                  Beverage Subscription
+                </h3>
+                <h6
+                  class="mt-4 text-light ms-5 mt-sm-3 mt-md-3 mt-xl-4"
+                  style="width: 70%; margin: auto"
+                >
+                  Starbucks Subsription is Back! Sip Your Favourites For
+                  less.Tap for Details. T&C Apply
+                </h6>
+                <a
+                  href=""
+                  class="d-flex justify-content-center justify-content-sm-center justify-content-lg-end"
+                  style="text-decoration: none"
+                  ><button
+                    class="btn btn-light text-dark me-5 mt-sm-3 fw-bolder"
+                  >
+                    Know more
+                  </button></a
+                >
+              </section>
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#slider"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#slider"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+
+    <!--products-->
+    <div class="container mt-5 mb-5">
+      <h3 class="fw-bolder t" style="color: #0e382c">Handcrafted Curations</h3>
+      <div class="row mt-5 product">
+        <div
+          class="col-12 offset-4 col-sm-12 col-md-4 col-lg-2 offset-md-0 offset-sm-4 offset-xl-0"
+        >
+          <img
+            src="images/Bestseller.webp"
+            alt=""
+            class="rounded rounded-circle"
+          />
+          <h6 class="ms-3 mt-2 fw-bolder">Bestseller</h6>
+        </div>
+
+        <div
+          class="col-12 offset-4 col-sm-12 col-xl-2 col-md-4 col-lg-2 offset-md-0 offset-sm-4 offset-xl-0"
+        >
+          <img src="images/Drinks.webp" alt="" class="rounded rounded-circle" />
+          <h6 class="ms-4 mt-2 fw-bolder">Drinks</h6>
+        </div>
+
+        <div
+          class="col-12 offset-4 col-sm-12 col-xl-2 col-lg-2 col-md-4 offset-md-0 offset-sm-4 offset-xl-0"
+        >
+          <img src="images/Food.webp" alt="" class="rounded rounded-circle" />
+          <h6 class="ms-4 mt-2 fw-bolder ps-2">Food</h6>
+        </div>
+
+        <div
+          class="col-12 offset-4 col-sm-12 col-xl-2 col-lg-2 col-md-4 offset-md-0 offset-sm-4 offset-xl-0"
+        >
+          <img
+            src="images/Merchandise.webp"
+            alt=""
+            class="rounded rounded-circle"
+          />
+          <h6 class="ms-1 mt-2 fw-bolder">Merchandise</h6>
+        </div>
+
+        <div
+          class="col-12 offset-4 col-sm-12 col-xl-2 col-lg-2 col-md-4 offset-md-0 offset-sm-4 offset-xl-0"
+        >
+          <img
+            src="images/CoffeeAtHome.webp"
+            alt=""
+            class="rounded rounded-circle"
+          />
+          <h6 class="mt-2 fw-bolder">Coffee At Home</h6>
+        </div>
+
+        <div
+          class="col-12 offset-4 col-sm-12 col-xl-2 col-lg-2 col-md-4 offset-md-0 offset-sm-4 offset-xl-0"
+        >
+          <img
+            src="images/ReadyToEat.webp"
+            alt=""
+            class="rounded rounded-circle"
+          />
+          <h6 class="ms-2 mt-2 fw-bolder">Ready To Eat</h6>
+        </div>
+      </div>
+    </div>
+
+    <!--cards slider-->
+    <div class="container-fluid" style="background-color: whitesmoke; height: 350px">
+      <div class="container">
+
+        <div class="head w-100 d-flex justify-content-between">
+            <h3 class="fw-bolder pt-4" style="color: #0e382c">
+            Barista Recommends
+            </h3>
+
+            <a href="#" class="fw-bold mt-4" style="text-decoration: none; color: green;font-size: 13px;">View more</a>
+        </div>
+        
+
+        <div id="cards-slide" class="carousel slide mt-5" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                 <div class="row ">
+
+                    <!--CARD-1-->
+                    <div class="col-4">
+                        <div class="card" style="width: 400px; height: 170px; border-radius: 10px">
+                            <section class="d-flex">
+                              <img src="images/card-p1.jpg" class="card-img-top rounded m-3" style="height: 70px; width: 70px" />
+                  
+                              <div class="info mt-3">
+                                <img src="images/veg.png" class="pb-2" style="height: 25px" />
+                                <h6 class="fw-bolder">Cappuccino</h6>
+                                <h6 style="font-size: 12px">Short</h6>
+                              </div>
+                            </section>
+                            <div class="card-body w-100 mb-5 d-flex justify-content-between">
+                              <h6 class="fw-bolder">₹ 283.50</h6>
+                              <button
+                                class="btn btn-success btn-outline-dark"
+                                style="width: 110px; height: 40px"
+                              >
+                                Add item
+                              </button>
+                            </div>
+                          </div>
+                    </div>
+
+                    <!--CARD-2-->
+                    <div class="col-4 ">
+                        <div class="card" style="width: 400px; height: 170px; border-radius: 10px">
+                            <section class="d-flex">
+                              <img src="images/card-p2.jpg" class="card-img-top rounded m-3" style="height: 70px; width: 70px" />
+                  
+                              <div class="info mt-3">
+                                <img src="images/veg.png" class="pb-2" style="height: 25px" />
+                                <h6 class="fw-bolder">Signature Hot Chocolate</h6>
+                                <h6 style="font-size: 12px">SHORT(237ML)284 kcal</h6>
+                              </div>
+                            </section>
+                            <div class="card-body w-100 mb-5 d-flex justify-content-between">
+                              <h6 class="fw-bolder">₹ 378.50</h6>
+                              <button
+                                class="btn btn-success btn-outline-dark"
+                                style="width: 110px; height: 40px"
+                              >
+                                Add item
+                              </button>
+                            </div>
+                          </div>
+                    </div>
+
+                    <!--CARD-3-->
+                    <div class="col-4 ">
+                        <div class="card" style="width: 400px; height: 170px; border-radius: 10px">
+                            <section class="d-flex">
+                              <img src="images/card-p4.jpg" class="card-img-top rounded m-3" style="height: 70px; width: 70px" />
+                  
+                              <div class="info mt-3">
+                                <img src="images/veg.png" class="pb-2" style="height: 25px" />
+                                <h6 class="fw-bolder">Vanilla Milkshake</h6>
+                                <h6 style="font-size: 12px">TALL(354ML).PER SERVE(354ML)-531 KCAL</h6>
+                              </div>
+                            </section>
+                            <div class="card-body w-100 mb-5 d-flex justify-content-between">
+                              <h6 class="fw-bolder">₹ 299.25</h6>
+                              <button
+                                class="btn btn-success btn-outline-dark"
+                                style="width: 110px; height: 40px"
+                              >
+                                Add item
+                              </button>
+                            </div>
+                          </div>
+                    </div>
+                 </div>
+              </div>
+             
+
+              <div class="carousel-item ">
+                <div class="row ">
+
+                      <!--CARD-4-->
+                      <div class="col-4 ">
+                        <div class="card" style="width: 400px; height: 170px; border-radius: 10px">
+                            <section class="d-flex">
+                              <img src="images/card-p4.jpg" class="card-img-top rounded m-3" style="height: 70px; width: 70px" />
+                  
+                              <div class="info mt-3">
+                                <img src="images/veg.png" class="pb-2" style="height: 25px" />
+                                <h6 class="fw-bolder">Vanilla Milkshake</h6>
+                                <h6 style="font-size: 12px">TALL(354ML).PER SERVE(354ML)-531 KCAL</h6>
+                              </div>
+                            </section>
+                            <div class="card-body w-100 mb-5 d-flex justify-content-between">
+                              <h6 class="fw-bolder">₹ 299.25</h6>
+                              <button
+                                class="btn btn-success btn-outline-dark"
+                                style="width: 110px; height: 40px"
+                              >
+                                Add item
+                              </button>
+                            </div>
+                          </div>
+                    </div>
+                
+
+
+                   <!--CARD-5-->
+                   <div class="col-4 ">
+                    <div class="card" style="width: 400px; height: 170px; border-radius: 10px">
+                        <section class="d-flex">
+                          <img src="images/card-p3.jpg" class="card-img-top rounded m-3" style="height: 70px; width: 70px" />
+              
+                          <div class="info mt-3">
+                            <img src="images/veg.png" class="pb-2" style="height: 25px" />
+                            <h6 class="fw-bolder">Cold Brew Black</h6>
+                            <h6 style="font-size: 12px">SHORT (Short Cold Brew Black).</h6>
+                          </div>
+                        </section>
+                        <div class="card-body w-100 mb-5 d-flex justify-content-between">
+                          <h6 class="fw-bolder">₹ 373.00</h6>
+                          <button
+                            class="btn btn-success btn-outline-dark"
+                            style="width: 110px; height: 40px"
+                          >
+                            Add item
+                          </button>
+                        </div>
+                      </div>
+                </div>
+
+
+                   <!--CARD-6-->
+                   <div class="col-4">
+                    <div class="card" style="width: 400px; height: 170px; border-radius: 10px">
+                        <section class="d-flex">
+                          <img src="images/card-p1.jpg" class="card-img-top rounded m-3" style="height: 70px; width: 70px" />
+              
+                          <div class="info mt-3">
+                            <img src="images/veg.png" class="pb-2" style="height: 25px" />
+                            <h6 class="fw-bolder">Tall Java Chip frappuccino</h6>
+                            <h6 style="font-size: 12px">TALL</h6>
+                          </div>
+                        </section>
+                        <div class="card-body w-100 mb-5 d-flex justify-content-between">
+                          <h6 class="fw-bolder">₹ 399.50</h6>
+                          <button
+                            class="btn btn-success btn-outline-dark"
+                            style="width: 110px; height: 40px"
+                          >
+                            Add item
+                          </button>
+                        </div>
+                      </div>
+                </div>
+            </div>
+                
+
+
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#cards-slide" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon bg-dark  rounded rounded-circle" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#cards-slide" data-bs-slide="next">
+              <span class="carousel-control-next-icon bg-dark  rounded rounded-circle"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+       
+        </div>
+    </div>
+    </div>
+    
+
+    
+    <!--learn more banner-->
+    <div class="container-fluid mb-5" style="height: 480px; background-color: whitesmoke; margin-top: 60px;">
+      <div class="container">
+        
+        <div class="head w-100 d-flex justify-content-between">
+          <h3 class="fw-bolder pt-4" style="color: #0e382c">
+            Learn more about the world of coffee!
+          </h3>
+
+           <a href="#" class="fw-bold mt-4" style="text-decoration: none; color: green;font-size: 13px;">Discover More</a>
+       </div>
+       
+       <div class="banner mt-sm-4">
+
+            <h2 class="fw-bolder text-light mb-3 ps-3">Art & Science Of Coffee Brewing</h2>
+            <h6 class="text-light w-100 ps-3" style="font-size: smaller;">Master the perfect brew with Starbucks! Learn the art and science of coffee brewing.</h6>
+        
+            <button class="btn btn-light text-dark mt-5 ms-3 fw-bolder" style="width: 15%;">Learn More</button></a>
+          
+          </div>
+
+      </div>
+    </div>
+
+
+    <!--footer-->
+    <div class="container-fluid" style="height: 700px; background-color: #0e382c;">
+      <div class="container d-flex justify-content-between"  style="border-bottom: 2px solid white;height: 700px;">
+        
+        <div class="footer-info  d-flex justify-content-between" style="height: auto; margin-top: 100px;">    
+            <div class="logo-2" style="width: 7%;" >
+                <img src="images/logo.png" alt="" class="mt-3" style="height: 63px;">
+            </div>
+
+            <div class="about" style="width: 16%;">
+              <ul>
+                <li><a href="#" style="text-decoration: none; font-size: 25px;" class="fw-bolder">About Us</a></li>
+                <li><a href="#" style="text-decoration: none;"> Our Heritage</a></li>
+                <li><a href="#" style="text-decoration: none;" > Coffeehouse</a></li>
+                <li><a href="#" style="text-decoration: none;" >Our Company</a></li>
+              </ul>
+            </div>
+
+            <div class="responsibility" style="width: 18%;">
+              <ul>
+                <li ><a href="#" style="text-decoration: none; font-size: 25px;" class="fw-bolder">Responsibility</a></li>
+                <li ><a href="" style="text-decoration: none;"> Diversitya</a> </li>
+                <li ><a href="" style="text-decoration: none;"> Community </a></li>
+                <li ><a href="" style="text-decoration: none;">Ethical Sourcing</a></li>
+                <li ><a href="" style="text-decoration: none;">Environmental Stewardship</a></li>
+                <li ><a href="" style="text-decoration: none;"> Learn More</a></li>
+              </ul>
+            </div>
+
+            <div class="quick-lens" style="width: 19%;">
+              <ul>
+
+                <li><a href="" style="text-decoration: none;font-size: 25px;" class="fw-bolder"> Quick Links</a></li>
+                <li><a href="" style="text-decoration: none;"> Privacy Policy</a></li>
+                <li><a href="" style="text-decoration: none;"> FAQs</a></li>
+                <li><a href="" style="text-decoration: none;"> Starbucks India Mobile App Terms of Use</a></li>
+                <li><a href="" style="text-decoration: none;"> Customer Service</a></li>
+                <li><a href="" style="text-decoration: none;"> Delivery</a></li>
+                <li><a href="" style="text-decoration: none;"> Season's Gifting</a></li>
+                <li><a href="" style="text-decoration: none;"> Loyalty Program Terms and Conditions</a></li>
+                <li><a href="" style="text-decoration: none;"> Starbucks Rewards Day Offer</a></li>
+                <li><a href="" style="text-decoration: none;"> Diwali Bonus Star Offer</a></li>
+                <li><a href="" style="text-decoration: none;"> Classics Combo Offer</a></li>
+                <li><a href="" style="text-decoration: none;"> Beverage Subscription</a></li>
+              </ul>
+            </div>
+
+            <div class="social-media" style="width: 18%;">
+              <ul>
+                <li><a href="" style="text-decoration: none;font-size: 25px;" class="fw-bolder"> Social media</a></li>
+                <li><a href="" style="text-decoration: none;"><i class="bi bi-instagram" style="font-size: 30px;"></i>
+                  <i class="bi bi-facebook ps-4" style="font-size: 30px;"></i>
+                  <i class="bi bi-twitter ps-4" style="font-size: 30px;"></i>
+                </a></li>
+                
+              </ul>
+            </div>
+
+            <div class="apps" style="width: 16%;">
+                <img src="images/appstoreAndroid.png" class="mt-3">
+                <img src="images/appstoreiOS.png" class="mt-2">
+            </div>
+        </div>
+
+       </div>
+    </div>
+
+    <!--footer-end-->
+    <div class="container-fluid" style="height:auto; background-color: #0e382c;">
+      <div class="container">
+
+        <div class="footer-end d-flex justify-content-between">
+          <ul class="d-flex mt-3 ">
+                <li><a href="#" style="text-decoration: none;"> Our Heritage</a></li>
+                <li><a href="#" style="text-decoration: none;" > Coffeehouse</a></li>
+                <li><a href="#" style="text-decoration: none;" >Our Company</a></li>
+          </ul>
+
+          <h6 style="font-size: 10px;color: white;" class="mt-3">© 2024 Starbucks Coffee Company. All rights reserved.</h6>
+        </div>
+
+      </div>
+    </div>
+
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
