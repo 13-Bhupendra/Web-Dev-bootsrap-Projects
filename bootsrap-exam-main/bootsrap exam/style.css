@@ -1,0 +1,21 @@
+.row {
+    height: 100%;
+}
+
+section {
+    position: relative;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%;
+    z-index: 0;
+}
+
+.banner {
+    height: 100vh;
+    background: url("image/banner.avif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0;
+}
+
+ 
