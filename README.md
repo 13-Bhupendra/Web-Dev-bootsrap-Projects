@@ -34,7 +34,7 @@ Bootstrap-All-Projects
   <img src="https://github.com/13-Bhupendra/Web-Dev-bootsrap-Projects/blob/main/bootsrap-exam-main/Screenshot%202024-12-16%20130647.png">
 </a>
 
-<center><h1>bootstrap-practical-exam</h1></center>
+<center><h1>admin-panel</h1></h1></center>
 <a href="https://boisterous-semifreddo-ed3323.netlify.app/">
-  <img src="https://github.com/13-Bhupendra/Web-Dev-bootsrap-Projects/blob/main/Screenshot%202024-12-19%20105722.png>
+  <img src="https://github.com/13-Bhupendra/Web-Dev-bootsrap-Projects/blob/main/Screenshot%202024-12-19%20105722.png">
 </a>
