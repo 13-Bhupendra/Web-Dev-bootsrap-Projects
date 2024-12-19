@@ -30,6 +30,6 @@ Bootstrap-All-Projects
 <br><br><br>
 
 <center><h1>bootstrap-practical-exam</h1></center>
-<a href="https://effortless-crumble-2c7f5d.netlify.app/">
-  <img src="https://github.com/13-Bhupendra/Web-Dev-bootsrap-Projects/blob/main/bootsrap-exam-main/Screenshot%202024-12-13%20104718.png">
+<a href="https://serene-melba-6513c0.netlify.app/">
+  <img src="https://github.com/13-Bhupendra/Web-Dev-bootsrap-Projects/blob/main/bootsrap-exam-main/Screenshot%202024-12-16%20130647.png">
 </a>
